@@ -50,10 +50,11 @@ Supported almost all cryptocurrencies on: Ethereum, Binance Smart Chain and TRON
 ```
 
 **Configuration of Plugin**
+
 System Settings->Sales->Payment methods->XaiGate
 * APIKey: You'll need to obtain an API Key from your Xaigate project settings. Access the Credential page of your Xaigate dashboard to retrieve your API Key: https://wallet.xaigate.com/merchant/credential
 * Shop name: Enter your shop name.
 * That’s all, save the setting.
 
 **Support and Feedback**
-Magento 2.4.4
+* Magento 2.4.4
