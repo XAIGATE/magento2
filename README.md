@@ -52,9 +52,16 @@ Supported almost all cryptocurrencies on: Ethereum, Binance Smart Chain and TRON
 **Configuration of Plugin**
 
 System Settings->Sales->Payment methods->XaiGate
-* APIKey: You'll need to obtain an API Key from your Xaigate project settings. Access the Credential page of your Xaigate dashboard to retrieve your API Key: https://wallet.xaigate.com/merchant/credential
-* Shop name: Enter your shop name.
+![Xaigate-Plugin-configuration](https://www.xaigate.com/wp-content/uploads/2024/04/xaigate-magento2-config.png)
+
+* Status: Enables and disables the payment method.
+* APIKey: You'll need to obtain an API Key from your XAIGATE project settings. Access the Credential page of your XAIGATE dashboard to retrieve your API Key: https://wallet.xaigate.com/merchant/credential
+* Shop name: Enter your shop name.
+* Title: The title written by you will appear on the checkout page.
+* Order Status Completed: The status of the order in your store after successful payment.
+* Pending Status: The status of the order in your store after pending payment.
+* Failed Status: The status of the order in your store after failed payment.
 * That’s all, save the setting.
 
-**Support and Feedback**
+**Support**
 * Magento 2.4.4
