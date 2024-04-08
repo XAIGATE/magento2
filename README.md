@@ -34,21 +34,25 @@ Supported almost all cryptocurrencies on: Ethereum, Binance Smart Chain and TRON
 
 * Login to your SSH and run below commands:
 
-php bin/magento setup:upgrade
-
-// For Magento version 2.0.x to 2.1.x
-php bin/magento setup:static-content:deploy
-
-// For Magento version 2.2.x & above
-php bin/magento setup:static-content:deploy –f
-
-php bin/magento cache:flush
-
-rm -rf var/cache var/generation var/di var/page_cache generated/*
-
-
+```bash
+    php bin/magento setup:upgrade
+  
+    // For Magento version 2.0.x to 2.1.x
+    php bin/magento setup:static-content:deploy
+  
+    // For Magento version 2.2.x & above
+    php bin/magento setup:static-content:deploy –f
+   
+    php bin/magento cache:flush
+    
+    rm -rf var/cache var/generation var/di var/page_cache generated/*
+  
+    ```
 **Configuration of Plugin**
 System Settings->Sales->Payment methods->XaiGate
 * APIKey: You'll need to obtain an API Key from your Xaigate project settings. Access the Credential page of your Xaigate dashboard to retrieve your API Key: https://wallet.xaigate.com/merchant/credential
 * Shop name: Enter your shop name.
 * That’s all, save the setting.
+
+**Support and Feedback**
+Magento 2.4.4
