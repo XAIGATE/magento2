@@ -1,0 +1,15 @@
+{
+    "name": "xaigate/paymentgateway",
+    "description": "XaiGate Enterprise Cryptocurrency Payment Processing for Magento 2",
+    "type": "magento2-module",
+    "version": "2.1.2",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "XaiGate\\PaymentGateway\\": ""
+        }
+    }
+}

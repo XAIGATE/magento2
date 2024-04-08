@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <payment>
+            <xaigate_paymentgateway>
+                <active>0</active>
+                <payment_action>true</payment_action>
+                <model>Xaigate\PaymentGateway\Model\Payment\Xaigatemethod</model>
+                <order_status>pending_payment</order_status><!-- set default order status-->
+                <apikey></apikey>
+                <title>Xaigate Payment Gateway</title>
+                <shopname>My Store</shopname>
+                <callback_url></callback_url>
+                <status_completed></status_completed>
+                <status_pending></status_pending>
+                <status_failed></status_failed>
+                <checkout_page_message>You will be redirected to the secure XAIGATE checkout page.</checkout_page_message>
+            </xaigate_paymentgateway>
+        </payment>
+    </default>
+</config>
